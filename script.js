@@ -10,6 +10,6 @@ document.getElementById('googleForm').addEventListener('submit', function(event)
     console.log('Form submitted:', { name, email, age, gender, message });
 
     this.reset();
-    window.location.href = 'confirmation.html';
+    window.location.href = 'SubmitPage.html';
 
 });
